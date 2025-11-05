@@ -152,3 +152,5 @@ Status
 Simplicity is the feature.<>
 
 「家計簿」 — track with intention.
+
+![Kakeibo](assets/kakeibo.png)
