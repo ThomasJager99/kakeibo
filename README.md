@@ -39,7 +39,7 @@ Core principles
 ◎ Clarity over complexit  
 ◇ One screen. One form. One table.
 
-◎ Local-firs*  
+◎ Local-firt  
 ◇ All data stored in SQLite (later Postgres).  
 ◇ No external services.
 
@@ -61,6 +61,7 @@ ________________
 
 Structure:
 
+```
 kakeibo_public/                     ← Git repository (this goes to GitHub)
 │
 ├── app.py                          ← Flask entrypoint
@@ -78,7 +79,7 @@ kakeibo_public/                     ← Git repository (this goes to GitHub)
 │
 └── data/                           ← SQLite DB runtime folder (ignored by git)
     └── (empty)
-
+```
 ________________
 
 
@@ -93,7 +94,7 @@ python app.py
 Open:
 
 http://localhost:5000
-
+```
 ________________
 
 Future development (planned evolution)
