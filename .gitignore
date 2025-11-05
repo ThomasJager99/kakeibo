@@ -1,0 +1,44 @@
+# -----------------------------
+#  Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+.venv/
+venv/
+
+# -----------------------------
+#  Environment / secrets
+# -----------------------------
+.env
+*.env
+
+# -----------------------------
+#  Application data
+# -----------------------------
+data/
+*.sqlite3
+*.tm
+*.db
+
+# -----------------------------
+#  macOS system junk
+# -----------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+*.icloud
+*.icns
+
+# Thumbnails
+Thumbs.db
+
+# -----------------------------
+#  IDE / Editor junk
+# -----------------------------
+.idea/
+.vscode/

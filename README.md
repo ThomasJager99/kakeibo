@@ -43,7 +43,7 @@ Core principles
 ◇ All data stored in SQLite (later Postgres).  
 ◇ No external services.
 
-◎ Iterative development**  
+◎ Iterative developmen*  
 ◇ Build → use → improve.  
 ◇ README will change along with the code.
 
@@ -51,11 +51,11 @@ ________________
 
 Current functionality (MVP v0.1)
 
-✓ Add expense or income through HTML form
-✓ Store data in SQLite using SQLAlchemy
-✓ Display last 50 transactions
-✓ Show basic totals (income / expense)
-✓ Configurable via .env (ignored by git)
+-  Add expense or income through HTML form
+-  Store data in SQLite using SQLAlchemy
+-  Display last 50 transactions
+-  Show basic totals (income / expense)
+-  Configurable via .env (ignored by git)
 
 ________________
 
