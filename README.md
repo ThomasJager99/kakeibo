@@ -33,6 +33,7 @@ This project exists for the opposite reason:
 The goal is not to become a product with a hundred features.
 The goal is to remain a 'clear tool that improves only when needed'.
 
+Little About - [ABOUT.md](assets/ABOUT.md)
 ________________
 
 Core principles
