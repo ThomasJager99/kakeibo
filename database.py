@@ -16,7 +16,9 @@ if not db_path:
 
 #this one for connection
 def get_connection():
-    return sqlite3.connect(db_path)
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    return conn
 
 #this one for creating a table
 def init_bd():
@@ -25,7 +27,11 @@ def init_bd():
             """
                 CREATE TABLE IF NOT EXISTS expenses(
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    amount REAL NOT NULL
+                    amount REAL NOT NULL,
+                    currency TEXT NOT NULL,
+                    note TEXT,
+                    category TEXT,
+                    created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
                 )
             """
         )
