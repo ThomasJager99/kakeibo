@@ -98,42 +98,6 @@ http://localhost:5000
 ```
 ________________
 
-Future development (planned evolution)
-
-This project will not stay static.
-It will grow as I learn and as my needs change.
-
-- Planned milestones:
-
-- v0.2 — refinement
-
-• Categories
-• Filtering by date and type
-• CSV export
-
-- v0.3 — architecture upgrade
-
-• Switch to Postgres
-• Docker Compose (app + db)
-• Deployment to my server
-
-- v0.4 — API iteration
-
-• REST API endpoints
-• Pydantic validation layer
-• Optional CLI
-
-- v1.0 — full product mode
-
-• Authentication
-• Mobile-friendly UI
-• Basic analytics / graphs
-
-The project will be rewritten when it needs to be rewritten,
-not when it looks trendy to rewrite.
-
-________________
-
 License
 
 This project is released under AGPL-3.0.
